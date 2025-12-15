@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Portrait Sprites",
-    "path":"folders/Sprites/Character Sprites/Portrait Sprites.yy",
+    "name":"Portrait",
+    "path":"folders/Sprites/Character/Portrait.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
