@@ -52,6 +52,7 @@
     {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},},
     {"id":{"name":"o_door","path":"objects/o_door/o_door.yy",},},
     {"id":{"name":"o_elizabeth","path":"objects/o_elizabeth/o_elizabeth.yy",},},
+    {"id":{"name":"o_fade_transistion","path":"objects/o_fade_transistion/o_fade_transistion.yy",},},
     {"id":{"name":"o_game","path":"objects/o_game/o_game.yy",},},
     {"id":{"name":"o_input","path":"objects/o_input/o_input.yy",},},
     {"id":{"name":"o_solid","path":"objects/o_solid/o_solid.yy",},},

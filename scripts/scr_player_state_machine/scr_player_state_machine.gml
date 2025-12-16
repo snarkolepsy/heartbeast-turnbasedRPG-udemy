@@ -7,3 +7,10 @@ function elizabeth_move_state() {
 	// Move
 	move(_hspd, _vspd);
 }
+
+/// @function			elizabeth_wait_state()
+function elizabeth_wait_state() {
+	/// @ Description	...?
+	image_index = 0;
+	image_speed = 0;
+}

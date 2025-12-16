@@ -26,7 +26,7 @@ function move(_hspd, _vspd) {
 		image_index = 0;
 	}
 	else {
-		image_speed = 0.2;
+		image_speed = 0.4;
 		facing_ = get_facing(_dir);
 	}
 	
