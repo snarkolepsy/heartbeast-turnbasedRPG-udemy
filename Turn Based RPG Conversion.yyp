@@ -50,6 +50,7 @@
   "name":"Turn Based RPG Conversion",
   "resources":[
     {"id":{"name":"o_camera","path":"objects/o_camera/o_camera.yy",},},
+    {"id":{"name":"o_data","path":"objects/o_data/o_data.yy",},},
     {"id":{"name":"o_door","path":"objects/o_door/o_door.yy",},},
     {"id":{"name":"o_elizabeth","path":"objects/o_elizabeth/o_elizabeth.yy",},},
     {"id":{"name":"o_fade_transistion","path":"objects/o_fade_transistion/o_fade_transistion.yy",},},
@@ -61,6 +62,7 @@
     {"id":{"name":"r_base","path":"rooms/r_base/r_base.yy",},},
     {"id":{"name":"r_init","path":"rooms/r_init/r_init.yy",},},
     {"id":{"name":"scr_camera_state_machine","path":"scripts/scr_camera_state_machine/scr_camera_state_machine.yy",},},
+    {"id":{"name":"scr_game_data","path":"scripts/scr_game_data/scr_game_data.yy",},},
     {"id":{"name":"scr_handling_inputs","path":"scripts/scr_handling_inputs/scr_handling_inputs.yy",},},
     {"id":{"name":"scr_helper_functions","path":"scripts/scr_helper_functions/scr_helper_functions.yy",},},
     {"id":{"name":"scr_movement","path":"scripts/scr_movement/scr_movement.yy",},},

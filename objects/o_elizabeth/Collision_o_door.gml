@@ -1,4 +1,4 @@
-/// @description Colliding with the door transports player
+/// @description Colliding with a door transports player
 
 //room_goto(other.room_);
 global.player_start_position = other.start_;

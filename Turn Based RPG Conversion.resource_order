@@ -31,6 +31,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"o_data","order":4,"path":"objects/o_data/o_data.yy",},
     {"name":"o_fade_transistion","order":3,"path":"objects/o_fade_transistion/o_fade_transistion.yy",},
     {"name":"o_game","order":1,"path":"objects/o_game/o_game.yy",},
     {"name":"o_input","order":2,"path":"objects/o_input/o_input.yy",},
@@ -38,6 +39,7 @@
     {"name":"o_start_position","order":2,"path":"objects/o_start_position/o_start_position.yy",},
     {"name":"r_init","order":1,"path":"rooms/r_init/r_init.yy",},
     {"name":"scr_camera_state_machine","order":3,"path":"scripts/scr_camera_state_machine/scr_camera_state_machine.yy",},
+    {"name":"scr_game_data","order":5,"path":"scripts/scr_game_data/scr_game_data.yy",},
     {"name":"scr_handling_inputs","order":1,"path":"scripts/scr_handling_inputs/scr_handling_inputs.yy",},
     {"name":"scr_helper_functions","order":4,"path":"scripts/scr_helper_functions/scr_helper_functions.yy",},
     {"name":"scr_player_state_machine","order":2,"path":"scripts/scr_player_state_machine/scr_player_state_machine.yy",},
