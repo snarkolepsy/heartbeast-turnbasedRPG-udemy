@@ -1,7 +1,7 @@
 /// @description ???
 //test_data_ = json_parse("{\"myObj\": { \"apples\":10, \"oranges\":12, \"potatoes\":100000, \"avocados\":0 }, \"myArray\":[0, 1, 2, 2, 4, 0, 1, 5, 1]}");
 //data_ = json_parse("{\"elizabeth\": {\"name\": \"Elizabeth\",\"health\": 100,\"attack\": 8,\"defense\": 8,\"speed\": 9,\"critical\": 25,\"experience\": 0,\"actions\": []}}");
-data_ = {
+classes_ = {
     "elizabeth": {
         "name": "Elizabeth",
         "health": 10,
