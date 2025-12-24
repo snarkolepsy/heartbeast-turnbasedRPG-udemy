@@ -9,7 +9,8 @@ stats_ = get_stats_from_class("elizabeth");	// o_data.classes_[$ "elizabeth"];
 //stats_[$ "name"] = "Betty";
 //stats_[$ "health"] = 1000;
 
-// OP's implementation seems unnecessary --> draw_health_ = stats_[$ "health"];
+// OP's implementation seems unnecessary, but we'll keep it just in case
+draw_health_ = stats_[$ "health"];
 
 // Items list
 items_ = [];			//ds_list_create();
