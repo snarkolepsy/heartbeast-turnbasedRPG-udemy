@@ -26,13 +26,18 @@ function battle_camera_intro_state() {
 	/// @ Description					Start on the battle background and move to the center
 	
 	// Gradually moving the camera closer to the center-ish of the battle screen
-	o_camera.x = lerp(o_camera.x, room_width/2, o_camera.speed_);
+	o_camera.x = lerp(o_camera.x, room_width*3/4, o_camera.speed_);
 	o_camera.y = lerp(o_camera.y, room_height/2, o_camera.speed_);
+	
+	// Staying within the confines of the room
+	o_camera.x = clamp(o_camera.x, o_camera.width_/2, room_width-o_camera.width_/2);
+	o_camera.y = clamp(o_camera.y, o_camera.height_/2, room_height-o_camera.height_/2);
+	
 	camera_set_view_pos(view_camera[0], o_camera.x-o_camera.width_/2, o_camera.y-o_camera.height_/2);
 	
 	// When we are close enough, complete the movement and change camera state
-	if(point_distance(o_camera.x,  o_camera.y, room_width/2, room_height/2) < 1) {
-		o_camera.x = room_width/2;
+	if(point_distance(o_camera.x,  o_camera.y, room_width*3/4, room_height/2) < 1) {
+		o_camera.x = room_width*3/4;
 		o_camera.y = room_height/2;
 		o_camera.state_ = battle_camera_idle_state;
 	}
