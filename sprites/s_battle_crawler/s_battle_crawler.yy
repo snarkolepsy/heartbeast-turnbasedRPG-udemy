@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Battle",
-    "path":"folders/Sprites/Battle.yy",
+    "name":"Crawler",
+    "path":"folders/Sprites/Battle/Monster/Crawler.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
