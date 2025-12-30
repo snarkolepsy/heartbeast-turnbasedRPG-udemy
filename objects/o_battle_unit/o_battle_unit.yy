@@ -1,21 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"o_player_battle_unit",
+  "%Name":"o_battle_unit",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":32,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_player_battle_unit",
+  "name":"o_battle_unit",
   "overriddenProperties":[],
   "parent":{
     "name":"Battle Unit",
     "path":"folders/Objects/Battle/Battle Unit.yy",
   },
-  "parentObjectId":{
-    "name":"o_battle_unit",
-    "path":"objects/o_battle_unit/o_battle_unit.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"s_battle_elizabeth_idle",
-    "path":"sprites/s_battle_elizabeth_idle/s_battle_elizabeth_idle.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

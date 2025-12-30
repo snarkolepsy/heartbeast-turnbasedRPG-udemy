@@ -1,3 +1,3 @@
 /// @description Create the enemy battle object
-image_speed = 0.2;
-image_xscale = -1;
+event_inherited();
+init_battle_unit("werewolf", 1, true, 0.3, 0.4, 0.2, 0.4);

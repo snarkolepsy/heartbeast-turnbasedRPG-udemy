@@ -3,6 +3,7 @@
   "%Name":"o_enemy_battle_unit",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":17,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"o_enemy_battle_unit",
@@ -11,7 +12,10 @@
     "name":"Battle Unit",
     "path":"folders/Objects/Battle/Battle Unit.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"o_battle_unit",
+    "path":"objects/o_battle_unit/o_battle_unit.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
