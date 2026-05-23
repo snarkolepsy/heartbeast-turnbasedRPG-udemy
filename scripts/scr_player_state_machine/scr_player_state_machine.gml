@@ -1,8 +1,8 @@
 /**********								PLAYER STATES									**********/
 
-/// @function								elizabeth_move_state()
+/// @function							elizabeth_move_state()
+/// @description						Handling cartesian movement for Elizabeth object
 function elizabeth_move_state() {
-	/// @ Description						Handling cartesian movement for Elizabeth object
 	var _hspd = (o_input.right_ - o_input.left_)*o_elizabeth.spd_;
 	var _vspd = (o_input.down_ - o_input.up_)*o_elizabeth.spd_;
 
@@ -24,9 +24,9 @@ function elizabeth_move_state() {
 	}
 }
 
-/// @function								elizabeth_wait_state()
+/// @function							elizabeth_wait_state()
+/// @description						Prevents the Elizabeth object from moving or animating
 function elizabeth_wait_state() {
-	/// @ Description						Prevents the Elizabeth object from moving or animating
 	o_elizabeth.image_index = 0;
 	o_elizabeth.image_speed = 0;
 }

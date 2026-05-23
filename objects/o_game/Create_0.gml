@@ -8,6 +8,7 @@ draw_set_font(global.custom_font);
 
 // We start in r_init, so go into the next room to start the game
 room_goto_next();
+last_room_ = noone;
 
 // At the start of a new game, we spawn at the same location every time
 global.player_start_position = i_game_start;

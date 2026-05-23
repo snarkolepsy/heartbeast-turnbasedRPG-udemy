@@ -12,9 +12,9 @@ else {
 // Move into the battle room
 if (room != r_battle) {
 	if (abs(target_white_alpha_-white_alpha_) <= 0.2) {
-		
-		// Spawning location for BATTLE SCREEN
-		//global.player_start_position = i_battle_start; // do not need to move the sprite
+		// Remember where your were last, so you can return after the battle
+		o_game.last_room_ = room;
+		room_persistent = true;
 		
 		// Change the room to the battle screen
 		room_goto(r_battle);
